@@ -1,0 +1,660 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0DCC599F2003475E00A817E5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DCC599E2003475E00A817E5 /* AppDelegate.m */; };
+		0DCC59A22003475E00A817E5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DCC59A12003475E00A817E5 /* ViewController.m */; };
+		0DCC59A52003475E00A817E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DCC59A32003475E00A817E5 /* Main.storyboard */; };
+		0DCC59A72003475E00A817E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DCC59A62003475E00A817E5 /* Assets.xcassets */; };
+		0DCC59AA2003475E00A817E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DCC59A82003475E00A817E5 /* LaunchScreen.storyboard */; };
+		0DCC59AD2003475E00A817E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DCC59AC2003475E00A817E5 /* main.m */; };
+		0DCC59B72003475E00A817E5 /* WJLaunchAdManagerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DCC59B62003475E00A817E5 /* WJLaunchAdManagerDemoTests.m */; };
+		0DCC59C22003475E00A817E5 /* WJLaunchAdManagerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DCC59C12003475E00A817E5 /* WJLaunchAdManagerDemoUITests.m */; };
+		0DCC59D62003589800A817E5 /* ad.json in Resources */ = {isa = PBXBuildFile; fileRef = 0DCC59D52003589800A817E5 /* ad.json */; };
+		0DCC59E120035FEA00A817E5 /* WJLaunchAdManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DCC59DC20035FEA00A817E5 /* WJLaunchAdManager.m */; };
+		0DCC59E220035FEA00A817E5 /* WJLaunchAdModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DCC59DE20035FEA00A817E5 /* WJLaunchAdModel.m */; };
+		0DCC59E320035FEA00A817E5 /* WJLaunchAdView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DCC59E020035FEA00A817E5 /* WJLaunchAdView.m */; };
+		26AF86AC884FAA30AFA68102 /* libPods-WJLaunchAdManagerDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 16F5A04494815980733F9922 /* libPods-WJLaunchAdManagerDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0DCC59B32003475E00A817E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0DCC59922003475E00A817E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0DCC59992003475E00A817E5;
+			remoteInfo = WJLaunchAdManagerDemo;
+		};
+		0DCC59BE2003475E00A817E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0DCC59922003475E00A817E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0DCC59992003475E00A817E5;
+			remoteInfo = WJLaunchAdManagerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0DCC599A2003475E00A817E5 /* WJLaunchAdManagerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WJLaunchAdManagerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DCC599D2003475E00A817E5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0DCC599E2003475E00A817E5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0DCC59A02003475E00A817E5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0DCC59A12003475E00A817E5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0DCC59A42003475E00A817E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0DCC59A62003475E00A817E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0DCC59A92003475E00A817E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0DCC59AB2003475E00A817E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DCC59AC2003475E00A817E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0DCC59B22003475E00A817E5 /* WJLaunchAdManagerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WJLaunchAdManagerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DCC59B62003475E00A817E5 /* WJLaunchAdManagerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJLaunchAdManagerDemoTests.m; sourceTree = "<group>"; };
+		0DCC59B82003475E00A817E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DCC59BD2003475E00A817E5 /* WJLaunchAdManagerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WJLaunchAdManagerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DCC59C12003475E00A817E5 /* WJLaunchAdManagerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJLaunchAdManagerDemoUITests.m; sourceTree = "<group>"; };
+		0DCC59C32003475E00A817E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DCC59D52003589800A817E5 /* ad.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ad.json; sourceTree = "<group>"; };
+		0DCC59DB20035FEA00A817E5 /* WJLaunchAdManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJLaunchAdManager.h; sourceTree = "<group>"; };
+		0DCC59DC20035FEA00A817E5 /* WJLaunchAdManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJLaunchAdManager.m; sourceTree = "<group>"; };
+		0DCC59DD20035FEA00A817E5 /* WJLaunchAdModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJLaunchAdModel.h; sourceTree = "<group>"; };
+		0DCC59DE20035FEA00A817E5 /* WJLaunchAdModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJLaunchAdModel.m; sourceTree = "<group>"; };
+		0DCC59DF20035FEA00A817E5 /* WJLaunchAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJLaunchAdView.h; sourceTree = "<group>"; };
+		0DCC59E020035FEA00A817E5 /* WJLaunchAdView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJLaunchAdView.m; sourceTree = "<group>"; };
+		16F5A04494815980733F9922 /* libPods-WJLaunchAdManagerDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WJLaunchAdManagerDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36548005AABCC3DDC942B209 /* Pods-WJLaunchAdManagerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WJLaunchAdManagerDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-WJLaunchAdManagerDemo/Pods-WJLaunchAdManagerDemo.release.xcconfig"; sourceTree = "<group>"; };
+		DD56992ACB5D7242B72DE55F /* Pods-WJLaunchAdManagerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WJLaunchAdManagerDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WJLaunchAdManagerDemo/Pods-WJLaunchAdManagerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0DCC59972003475E00A817E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26AF86AC884FAA30AFA68102 /* libPods-WJLaunchAdManagerDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DCC59AF2003475E00A817E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DCC59BA2003475E00A817E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DCC59912003475E00A817E5 = {
+			isa = PBXGroup;
+			children = (
+				0DCC599C2003475E00A817E5 /* WJLaunchAdManagerDemo */,
+				0DCC59B52003475E00A817E5 /* WJLaunchAdManagerDemoTests */,
+				0DCC59C02003475E00A817E5 /* WJLaunchAdManagerDemoUITests */,
+				0DCC599B2003475E00A817E5 /* Products */,
+				7A0527FAD67B03722FA65648 /* Pods */,
+				83EE69F6B7D6947581D99A51 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0DCC599B2003475E00A817E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0DCC599A2003475E00A817E5 /* WJLaunchAdManagerDemo.app */,
+				0DCC59B22003475E00A817E5 /* WJLaunchAdManagerDemoTests.xctest */,
+				0DCC59BD2003475E00A817E5 /* WJLaunchAdManagerDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0DCC599C2003475E00A817E5 /* WJLaunchAdManagerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				0DCC59DA20035FEA00A817E5 /* WJLaunchAdManager */,
+				0DCC599D2003475E00A817E5 /* AppDelegate.h */,
+				0DCC599E2003475E00A817E5 /* AppDelegate.m */,
+				0DCC59A02003475E00A817E5 /* ViewController.h */,
+				0DCC59A12003475E00A817E5 /* ViewController.m */,
+				0DCC59D52003589800A817E5 /* ad.json */,
+				0DCC59A32003475E00A817E5 /* Main.storyboard */,
+				0DCC59A62003475E00A817E5 /* Assets.xcassets */,
+				0DCC59A82003475E00A817E5 /* LaunchScreen.storyboard */,
+				0DCC59AB2003475E00A817E5 /* Info.plist */,
+				0DCC59AC2003475E00A817E5 /* main.m */,
+			);
+			path = WJLaunchAdManagerDemo;
+			sourceTree = "<group>";
+		};
+		0DCC59B52003475E00A817E5 /* WJLaunchAdManagerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				0DCC59B62003475E00A817E5 /* WJLaunchAdManagerDemoTests.m */,
+				0DCC59B82003475E00A817E5 /* Info.plist */,
+			);
+			path = WJLaunchAdManagerDemoTests;
+			sourceTree = "<group>";
+		};
+		0DCC59C02003475E00A817E5 /* WJLaunchAdManagerDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0DCC59C12003475E00A817E5 /* WJLaunchAdManagerDemoUITests.m */,
+				0DCC59C32003475E00A817E5 /* Info.plist */,
+			);
+			path = WJLaunchAdManagerDemoUITests;
+			sourceTree = "<group>";
+		};
+		0DCC59DA20035FEA00A817E5 /* WJLaunchAdManager */ = {
+			isa = PBXGroup;
+			children = (
+				0DCC59DB20035FEA00A817E5 /* WJLaunchAdManager.h */,
+				0DCC59DC20035FEA00A817E5 /* WJLaunchAdManager.m */,
+				0DCC59DD20035FEA00A817E5 /* WJLaunchAdModel.h */,
+				0DCC59DE20035FEA00A817E5 /* WJLaunchAdModel.m */,
+				0DCC59DF20035FEA00A817E5 /* WJLaunchAdView.h */,
+				0DCC59E020035FEA00A817E5 /* WJLaunchAdView.m */,
+			);
+			path = WJLaunchAdManager;
+			sourceTree = "<group>";
+		};
+		7A0527FAD67B03722FA65648 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DD56992ACB5D7242B72DE55F /* Pods-WJLaunchAdManagerDemo.debug.xcconfig */,
+				36548005AABCC3DDC942B209 /* Pods-WJLaunchAdManagerDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		83EE69F6B7D6947581D99A51 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				16F5A04494815980733F9922 /* libPods-WJLaunchAdManagerDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0DCC59992003475E00A817E5 /* WJLaunchAdManagerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DCC59C62003475E00A817E5 /* Build configuration list for PBXNativeTarget "WJLaunchAdManagerDemo" */;
+			buildPhases = (
+				E0AE59F7E498B0DDA65B964A /* [CP] Check Pods Manifest.lock */,
+				0DCC59962003475E00A817E5 /* Sources */,
+				0DCC59972003475E00A817E5 /* Frameworks */,
+				0DCC59982003475E00A817E5 /* Resources */,
+				8646769FD494B55BAF548462 /* [CP] Embed Pods Frameworks */,
+				181AE5B05BD99C0B79EB974C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WJLaunchAdManagerDemo;
+			productName = WJLaunchAdManagerDemo;
+			productReference = 0DCC599A2003475E00A817E5 /* WJLaunchAdManagerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0DCC59B12003475E00A817E5 /* WJLaunchAdManagerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DCC59C92003475E00A817E5 /* Build configuration list for PBXNativeTarget "WJLaunchAdManagerDemoTests" */;
+			buildPhases = (
+				0DCC59AE2003475E00A817E5 /* Sources */,
+				0DCC59AF2003475E00A817E5 /* Frameworks */,
+				0DCC59B02003475E00A817E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0DCC59B42003475E00A817E5 /* PBXTargetDependency */,
+			);
+			name = WJLaunchAdManagerDemoTests;
+			productName = WJLaunchAdManagerDemoTests;
+			productReference = 0DCC59B22003475E00A817E5 /* WJLaunchAdManagerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0DCC59BC2003475E00A817E5 /* WJLaunchAdManagerDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DCC59CC2003475E00A817E5 /* Build configuration list for PBXNativeTarget "WJLaunchAdManagerDemoUITests" */;
+			buildPhases = (
+				0DCC59B92003475E00A817E5 /* Sources */,
+				0DCC59BA2003475E00A817E5 /* Frameworks */,
+				0DCC59BB2003475E00A817E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0DCC59BF2003475E00A817E5 /* PBXTargetDependency */,
+			);
+			name = WJLaunchAdManagerDemoUITests;
+			productName = WJLaunchAdManagerDemoUITests;
+			productReference = 0DCC59BD2003475E00A817E5 /* WJLaunchAdManagerDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0DCC59922003475E00A817E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = tqh;
+				TargetAttributes = {
+					0DCC59992003475E00A817E5 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					0DCC59B12003475E00A817E5 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0DCC59992003475E00A817E5;
+					};
+					0DCC59BC2003475E00A817E5 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0DCC59992003475E00A817E5;
+					};
+				};
+			};
+			buildConfigurationList = 0DCC59952003475E00A817E5 /* Build configuration list for PBXProject "WJLaunchAdManagerDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0DCC59912003475E00A817E5;
+			productRefGroup = 0DCC599B2003475E00A817E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0DCC59992003475E00A817E5 /* WJLaunchAdManagerDemo */,
+				0DCC59B12003475E00A817E5 /* WJLaunchAdManagerDemoTests */,
+				0DCC59BC2003475E00A817E5 /* WJLaunchAdManagerDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0DCC59982003475E00A817E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DCC59D62003589800A817E5 /* ad.json in Resources */,
+				0DCC59AA2003475E00A817E5 /* LaunchScreen.storyboard in Resources */,
+				0DCC59A72003475E00A817E5 /* Assets.xcassets in Resources */,
+				0DCC59A52003475E00A817E5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DCC59B02003475E00A817E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DCC59BB2003475E00A817E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		181AE5B05BD99C0B79EB974C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WJLaunchAdManagerDemo/Pods-WJLaunchAdManagerDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8646769FD494B55BAF548462 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WJLaunchAdManagerDemo/Pods-WJLaunchAdManagerDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0AE59F7E498B0DDA65B964A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0DCC59962003475E00A817E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DCC59E220035FEA00A817E5 /* WJLaunchAdModel.m in Sources */,
+				0DCC59A22003475E00A817E5 /* ViewController.m in Sources */,
+				0DCC59AD2003475E00A817E5 /* main.m in Sources */,
+				0DCC59E320035FEA00A817E5 /* WJLaunchAdView.m in Sources */,
+				0DCC59E120035FEA00A817E5 /* WJLaunchAdManager.m in Sources */,
+				0DCC599F2003475E00A817E5 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DCC59AE2003475E00A817E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DCC59B72003475E00A817E5 /* WJLaunchAdManagerDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DCC59B92003475E00A817E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DCC59C22003475E00A817E5 /* WJLaunchAdManagerDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0DCC59B42003475E00A817E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0DCC59992003475E00A817E5 /* WJLaunchAdManagerDemo */;
+			targetProxy = 0DCC59B32003475E00A817E5 /* PBXContainerItemProxy */;
+		};
+		0DCC59BF2003475E00A817E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0DCC59992003475E00A817E5 /* WJLaunchAdManagerDemo */;
+			targetProxy = 0DCC59BE2003475E00A817E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0DCC59A32003475E00A817E5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0DCC59A42003475E00A817E5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0DCC59A82003475E00A817E5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0DCC59A92003475E00A817E5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0DCC59C42003475E00A817E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0DCC59C52003475E00A817E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0DCC59C72003475E00A817E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD56992ACB5D7242B72DE55F /* Pods-WJLaunchAdManagerDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WJLaunchAdManagerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tqh.WJLaunchAdManagerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0DCC59C82003475E00A817E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36548005AABCC3DDC942B209 /* Pods-WJLaunchAdManagerDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WJLaunchAdManagerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tqh.WJLaunchAdManagerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0DCC59CA2003475E00A817E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WJLaunchAdManagerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tqh.WJLaunchAdManagerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WJLaunchAdManagerDemo.app/WJLaunchAdManagerDemo";
+			};
+			name = Debug;
+		};
+		0DCC59CB2003475E00A817E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WJLaunchAdManagerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tqh.WJLaunchAdManagerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WJLaunchAdManagerDemo.app/WJLaunchAdManagerDemo";
+			};
+			name = Release;
+		};
+		0DCC59CD2003475E00A817E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WJLaunchAdManagerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tqh.WJLaunchAdManagerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WJLaunchAdManagerDemo;
+			};
+			name = Debug;
+		};
+		0DCC59CE2003475E00A817E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WJLaunchAdManagerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tqh.WJLaunchAdManagerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WJLaunchAdManagerDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0DCC59952003475E00A817E5 /* Build configuration list for PBXProject "WJLaunchAdManagerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DCC59C42003475E00A817E5 /* Debug */,
+				0DCC59C52003475E00A817E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DCC59C62003475E00A817E5 /* Build configuration list for PBXNativeTarget "WJLaunchAdManagerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DCC59C72003475E00A817E5 /* Debug */,
+				0DCC59C82003475E00A817E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DCC59C92003475E00A817E5 /* Build configuration list for PBXNativeTarget "WJLaunchAdManagerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DCC59CA2003475E00A817E5 /* Debug */,
+				0DCC59CB2003475E00A817E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DCC59CC2003475E00A817E5 /* Build configuration list for PBXNativeTarget "WJLaunchAdManagerDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DCC59CD2003475E00A817E5 /* Debug */,
+				0DCC59CE2003475E00A817E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0DCC59922003475E00A817E5 /* Project object */;
+}
